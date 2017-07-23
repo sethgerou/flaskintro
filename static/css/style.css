@@ -22,3 +22,7 @@ a {
   font-weight: bold;
   padding: 3%;
 }
+
+.nav-links {
+  text-align: right;
+}

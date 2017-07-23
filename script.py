@@ -13,5 +13,9 @@ def about():
 def contact():
     return render_template("/contact.html")
 
+@app.route('/links/')
+def links():
+    return render_template("/links.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
